@@ -1,0 +1,79 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: #d7cfe4;
+}
+
+.game td
+{
+    width:223px;
+    height:284.5px;
+    border: solid 8px rgb(95, 69, 6);
+    text-align:center;
+    font-size:70pt;
+}
+
+.game td:hover
+{
+    background-color: #c4a6f8;
+    cursor:pointer;
+}
+
+.game
+{
+    border:solid 11px rgb(145, 2, 69);
+}
+
+.game .game-title
+{
+    background:#222;
+    color:#02ff02;
+    padding: 30px;
+    text-align:center;
+    font-size: 50px;
+ font-family: "Times New Roman", Times, serif;
+}
+
+.game .player
+{
+    float:left;
+    text-align:center;
+    width: 25%;
+    font-size: 30px;
+}
+
+.game .player .selected
+{
+    border-bottom:solid 6px #ff0000;
+}
+
+.tictactoe-board
+{
+    text-align:center;
+    margin:0 auto;
+    width:50%;
+    padding-top:20px;
+}
+
+.tictactoe-board table
+{
+    float:left;
+    width: 50%;
+}
+
+.tictactoe-board-score1
+{
+    float:left;
+    width:20%;
+}
+
+.tictactoe-board-score2
+{
+    float:left;
+    width:20%;
+}
+
+.clear
+{
+    clear:both;
+}
